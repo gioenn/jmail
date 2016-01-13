@@ -4,7 +4,7 @@
 
 ```
 GMailSender sender = new GMailSender("<your gmail address>", "<your gmail password>");
-sender.sendMail("<subject>", <html body>, <sender display name>, "<comma separated recipientes>");
+sender.sendMail("<subject>", <html body>, <sender display name>, "<comma separated recipients>");
 ```
 
 #### Example Usage
