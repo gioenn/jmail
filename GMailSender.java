@@ -16,12 +16,13 @@ import java.security.Security;
 import java.util.Properties;
 
 public class GMailSender extends javax.mail.Authenticator {
-    
-	private boolean debug = true;
-	private String mailhost = "smtp.gmail.com";
+	
     private String user;
     private String password;
     private Session session;
+    
+    private boolean debug = true;
+    private String mailhost = "smtp.gmail.com";
 
     static {
         Security.addProvider(new JSSEProvider()); 
